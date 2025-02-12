@@ -70,6 +70,10 @@ WorkingDirectory=/root/pop
 WantedBy=multi-user.target
 ```
 
+Сохранить CTRL + O
+
+Выйти CTRL + X
+
 ``systemctl daemon-reload``
 
 ``systemctl enable pop``
