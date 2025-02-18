@@ -32,7 +32,7 @@ Explorer:
 
 ``cd /root/pop``
 
-``curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"``
+``curl -L -o pop "https://dl.pipecdn.app/v0.2.6/pop"``
 
 ``chmod +x pop``
 
@@ -49,6 +49,8 @@ After=network.target
 Wants=network-online.target
 
 [Service]
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 User=root
 Group=root
 ExecStart=/root/pop/pop \
