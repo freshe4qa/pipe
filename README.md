@@ -76,6 +76,16 @@ WantedBy=multi-user.target
 
 Выйти CTRL + X
 
+``sudo ufw enable``
+
+``sudo ufw allow 80``
+
+``sudo ufw allow 443``
+
+``sudo ufw allow 8003``
+
+``ufw reload``
+
 ``systemctl daemon-reload``
 
 ``systemctl enable pop``
