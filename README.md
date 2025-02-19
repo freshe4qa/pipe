@@ -32,7 +32,7 @@ Explorer:
 
 ``cd /root/pop``
 
-``curl -L -o pop "https://dl.pipecdn.app/v0.2.6/pop"``
+``curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"``
 
 ``chmod +x pop``
 
