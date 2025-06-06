@@ -167,8 +167,8 @@ cd /opt/popcache
 ```
 
 ```
-wget https://download.pipe.network/static/pop-v0.3.1-linux-x64.tar.gz
-sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
+wget https://download.pipe.network/static/pop-v0.3.2-linux-x64.tar.gz
+sudo tar -xzf pop-v0.3.2-linux-x64.tar.gz
 chmod 755 /opt/popcache/pop
 ```
 
